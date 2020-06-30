@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<title>Single Page App Without A Framework</title>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+	<script src="jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+	<header class="compact">
+		<h1><a href="#">MEAL RECIPES</a></h1>
+	</header>
+	<div class="main-content">
+		<div class="all-products page">
+			<div class="filters">
+				<form>
+					<div class="filter-criteria">
+						<span>RECIPES</span>
+						<label><input type="checkbox" name="recipe" value="beef">BEEF</label>
+						<label><input type="checkbox" name="recipe" value="chicken">CHICKEN</label>
+						<label><input type="checkbox" name="recipe" value="vegetarian">VEGETARIAN</label>
+						<label><input type="checkbox" name="recipe" value="vegan">VEGAN</label>
+						<label><input type="checkbox" name="recipe" value="pasta">PASTA</label>
+						<label><input type="checkbox" name="recipe" value="seafood">SEAFOOD</label>
+					</div>
+					<button>Clear filters</button>
+				</form>
+			</div>
+			<ul class="products-list">
+				<script id="products-template" type="x-handlebars-template">​
+					{{#each this}}
+						<li data-index="{{id}}">
+							<a href="#" class="product-photo"><img src="{{image.small}}" height="130" alt="{{name}}"/></a>
+							<h2><a href="#"> {{name}} </a></h2>
+							<button>READ</button>
+							<div class="highlight"></div>
+						</li>
+					{{/each}}
+				</script>
+			</ul>
+
+		</div>
+		<div class="single-product page">
+
+			<div class="overlay"></div>
+
+			<div class="preview-large">
+				<h3>Single product view</h3>
+				<img src=""/>
+				<p></p>
+
+				<span class="close">×</span>
+			</div>
+
+		</div>
+
+		<div class="error page">
+			<h3>Sorry, something went wrong :(</h3>
+		</div>
+
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+	<script src="script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "BOURGUIGNON",
+    "specs":{
+      "recipe":"beef"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "images/BOURGUIGNON.png",
+      "large": "images/BOURGUIGNON.png"
+    }
+  },
+  {
+    "id": 2,
+    "name": "BEEF LO MEIN",
+    "specs":{
+      "recipe":"beef"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "images/lomein.png",
+      "large": "images/lomein.png"
+    }
+  },
+  {
+    "id": 3,
+    "name": "BROWN STEW CHICKEN",
+    "specs":{
+      "recipe":"chicken"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "images/brownstew.png",
+      "large": "images/brownstew.png"
+    }
+  },
+  {
+    "id": 4,
+    "name": "CHICKEN HANDI",
+    "specs":{
+      "recipe":"chicken"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "images/handi.png",
+      "large": "images/handi.png"
+    }
+  },
+  {
+    "id": 5,
+    "name": "LASAGNE",
+    "specs":{
+      "recipe":"pasta"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "images/lasagne.png",
+      "large": "images/lasagne.png"
+    }
+  },
+  {
+    "id": 6,
+    "name": "PRAWN LINGUINE",
+    "specs":{
+      "recipe":"pasta"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "images/LINGUINE.png",
+      "large": "images/LINGUINE.png"
+    }
+  },
+  {
+    "id": 7,
+    "name": "DAL FRY",
+    "specs":{
+      "recipe":"vegetarian"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "images/dalfry.png",
+      "large": "images/dalfry.png"
+    }
+  },{
+    "id": 8,
+    "name": "KEDGEREE",
+    "specs":{
+      "recipe":"seafood"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "images/KEDGEREE.png",
+      "large": "images/KEDGEREE.png"
+    }
+  },
+
+  {
+    "id": 9,
+    "name": "VEGAN LASAGNA",
+    "specs":{
+      "recipe":"vegan"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "images/veganlasanga.png",
+      "large": "images/veganlasanga.png"
+    }
+  }
+]
